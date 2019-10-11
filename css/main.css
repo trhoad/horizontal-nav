@@ -22,20 +22,36 @@ header {
   color: #fff;
   background-color: #79756f;
   border-top: 3px solid #595652;
-  border-bottom:  3px solid #595652;
-
+  border-bottom: 3px solid #595652;
+  padding: 0;
+  margin: 0;
 }
 
 .nav {
   font-family: "sans-serif", sans-serif;
+  text-align: center;
 }
 
 .nav li {
   display: inline-block;
-
+  margin: .3em;
+  max-width: 20em;
+  padding: .75em;
+  background-color: #713837;
+  border-radius: 8px;
+  list-style-type: none;
 }
 
 a {
   text-decoration: none;
   color: #fff;
+}
+
+.nav li:hover {
+  display: inline-block;
+  margin: .3em;
+  max-width: 20em;
+  padding: .75em;
+  background-color: #f33;
+  border-radius: 8px;
 }
