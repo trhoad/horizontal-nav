@@ -1,14 +1,41 @@
 html {
   box-sizing: border-box;
-  background-color: #dbd6cf;
-  font-family: "Bevan", sans-serif;
-  line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
+body {
+  background-color: #dbd6cf;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Bevan", serif;
+}
+
+header {
+  text-align: center;
+  color: #fff;
+  background-color: #79756f;
+  border-top: 3px solid #595652;
+  border-bottom:  3px solid #595652;
+
+}
+
+.nav {
+  font-family: "sans-serif", sans-serif;
+}
+
 .nav li {
   display: inline-block;
+
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
 }
