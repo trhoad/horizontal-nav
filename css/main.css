@@ -15,6 +15,9 @@ body {
 
 h1 {
   font-family: "Bevan", serif;
+  margin: 0em;
+  padding-top: .75em;
+
 }
 
 header {
@@ -29,16 +32,20 @@ header {
 
 .nav {
   font-family: "sans-serif", sans-serif;
-  text-align: center;
+  padding: 0em;
+  margin-top: 0em;
 }
 
 .nav li {
   display: inline-block;
   margin: .3em;
-  max-width: 20em;
-  padding: .75em;
+  margin-left: 0em;
+  margin-right: 0em;
+  padding: .5em;
+  padding-left: .75em;
+  padding-right: .75em;
   background-color: #713837;
-  border-radius: 8px;
+  border-radius: 6px;
   list-style-type: none;
 }
 
@@ -50,8 +57,11 @@ a {
 .nav li:hover {
   display: inline-block;
   margin: .3em;
-  max-width: 20em;
-  padding: .75em;
+  margin-left: 0em;
+  margin-right: 0em;
+  padding: .5em;
+  padding-left: .75em;
+  padding-right: .75em;
   background-color: #f33;
-  border-radius: 8px;
+  border-radius: 6px;
 }
